@@ -1,14 +1,20 @@
 import random
 
+"""
+Para el desarrollo de esta actividad fueron consideradas las reglas oficiales de hockey césped femenino en los Juegos Olímpicos 2024.
+También se utiliza el plantel oficial de las jugadoras de la selección Argentina y de Australia en el campeonato "Hockey Pro League femenina 2023-24".
+Sitios de referencia:
+https://olympics.com/es/paris-2024/deportes/hockey-sobre-cesped
+https://olympics.com/es/noticias/hockey-tiempo-juego-jugadores-cancha-posiciones 
+https://es.wikipedia.org/wiki/Hockey_Pro_League_femenina_2023-24
+
+"""
+
 # Dos tuplas que contienen el nombre del país y la lista de tuplas de jugadoras que lo representan
 lista_jugadoras_argentina: tuple[str, list[tuple[str, int]]] = (
-    "Argentina", [("Agustina Gorzelany", 11), ("Marı́a José Granatto", 9), ("Sofia Toccalino", 20),
-                  ("Agostina Alonso", 10), ("Valentina Raposo", 8), ("Clara Barberi", 5),
-                  ("Delfina Thome", 4), ("Sofia Cairó", 7), ("Pilar Campoy", 16)])
+    "Argentina", [("Sofía Toccalino", 2), ("Agustina Gorzelany", 3), ("Valentina Raposo", 4), ("Agostina Alonso", 5), ("Agustia Albertarrio", 7), ("María Granatto", 10), ("Cristina Cosentino", 13), ("Clara Barberi", 14), ("Bárbara Dichiara", 16), ("Rocío Sánchez", 17), ("Victoria Sauze", 18), ("Victoria Manuele", 19), ("Eugenia Trinchinetti", 22), ("María Campoy", 26), ("Julieta Jankunas", 28), ("Stefanía Antoniazzi", 36), ("Juana Castellaro", 50), ("Lara Casas", 61)])
 lista_jugadoras_australia: tuple[str, list[tuple[str, int]]] = (
-    "Australia", [("Violet Hardy", 1), ("Sandra Graves", 5), ("Georgia Glover", 13), ("Ursa Freeman", 21),
-                  ("Danielle Ruiz", 7), ("Sally Willis", 11), ("Ruby Anderson", 17), ("Rowena Craig", 90),
-                  ("Faye Haynes", 88)])
+    "Australia", [("Claire Colwill", 1), ("Ambrosia Malone", 2), ("Amy Lawton", 4), ("Grace Young", 5), ("Maddison Brooks", 8), ("Alice Arnott", 11), ("Hattie Shand", 13), ("Stephanie Kershaw", 14), ("Kaitlin Nobbs", 15), ("Lucy Sharman", 17), ("Jane Claxton", 18), ("Jocelyn Bartram", 19), ("Karri Somerville", 20), ("Renee Taylor", 21), ("Tatum Stewart", 22), ("Rebecca Greiner", 29), ("Grace Stewart", 30), ("Zoe Newman", 41)])
 
 
 def crear_datos(numero_de_datos: int) -> list[str]:
@@ -28,7 +34,7 @@ def crear_datos(numero_de_datos: int) -> list[str]:
                      f"{jugadora_elegida[0]};"
                      f"{jugadora_elegida[1]};"
                      f"{(random.randint(0, 1))};"
-                     f"{(random.randint(0, 90))}")
+                     f"{(random.randint(1, 60))}")
     return datos
 
 
