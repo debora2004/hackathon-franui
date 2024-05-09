@@ -1,3 +1,5 @@
 # hackathon-franui
 
-Este repositorio tiene los desafios para la hackathon Paris 2024 de UADE.
+Este repositorio contiene los desafíos para la hackathon París 2024 de UADE del equipo Franui.
+
+Cada carpeta contiene un archivo README.md adicional explicando el desafío en cuestión, así como la forma de ejecutarlo.
