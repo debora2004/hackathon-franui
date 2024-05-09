@@ -5,7 +5,8 @@ Este proyecto consiste en un generador de datos de pases para equipos de hockey.
 ## Requisitos Previos
 
 Para poder ejecutar este desafío, asegúrate de tener instalado Python en tu sistema. Si aún no lo tienes, puedes
-descargarlo desde el siguiente enlace: [Descargar Python](https://www.python.org/downloads/)
+descargarlo desde el siguiente enlace, preferiblemente la última versión que esté disponible en el
+momento: [Descargar Python](https://www.python.org/downloads/)
 
 ## Instrucciones de Ejecución
 
