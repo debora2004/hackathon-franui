@@ -75,4 +75,5 @@ if __name__ == '__main__':
     print(contar_pases_y_efectividad('pases.txt'))
 
     # Benchmark
-    # print(timeit.timeit('leer_archivo("pases.txt")', number=10000, setup="from __main__ import leer_archivo"))
+    # print(timeit.timeit('contar_pases_y_efectividad("pases.txt")', number=10000,
+    #                     setup="from __main__ import contar_pases_y_efectividad"))
