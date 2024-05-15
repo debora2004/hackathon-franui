@@ -42,7 +42,7 @@ def actualizar_registro(registro_archivo: dict, registro_lista: dict) -> None:
                                                              registro_lista['cantidad_pases']), 2)
 
 
-def leer_archivo(nombre_archivo: str, delimitador: str = ';'):
+def contar_pases_y_efectividad(nombre_archivo: str, delimitador: str = ';'):
     """
     Lee el archivo y devuelve la información con el formato solicitado. Requiere el siguiente argumento:
         nombre_archivo: el nombre del archivo a leer.
@@ -66,12 +66,14 @@ def leer_archivo(nombre_archivo: str, delimitador: str = ';'):
                 if archivo_numero not in datos_lista_australia:
                     datos_lista_australia[archivo_numero] = crear_registro(registro_archivo)
                 actualizar_registro(registro_archivo, datos_lista_australia[archivo_numero])
-    return [{'Argentina': datos_lista_argentina.values()}, {'Australia': datos_lista_australia.values()}]
+    return [{'Argentina': sorted(datos_lista_argentina.values(), key=lambda jugadora: jugadora['porcentaje'], reverse=True)},
+            {'Australia': sorted(datos_lista_australia.values(), key=lambda jugadora: jugadora['porcentaje'], reverse=True)}]
 
 
 if __name__ == '__main__':
     # Se invoca el método que lee el archivo, con el nombre que deseemos
-    print(leer_archivo('pases.txt'))
+    print(contar_pases_y_efectividad('pases.txt'))
 
     # Benchmark
-    # print(timeit.timeit('leer_archivo("pases.txt")', number=10000, setup="from __main__ import leer_archivo"))
+    # print(timeit.timeit('contar_pases_y_efectividad("pases.txt")', number=10000,
+    #                     setup="from __main__ import contar_pases_y_efectividad"))
