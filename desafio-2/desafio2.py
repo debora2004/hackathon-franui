@@ -1,6 +1,3 @@
-import timeit
-
-
 def calcular_porcentaje(pases_bien: int, cantidad_pases: int) -> float:
     """
     Calcula el porcentaje de un registro de la lista, y requiere los siguientes argumentos:
@@ -75,8 +72,8 @@ def contar_pases_y_efectividad(nombre_archivo: str) -> list[dict: [str, any]]:
 
 if __name__ == '__main__':
     # Se invoca el método que lee el archivo, con el nombre que deseemos
-    # print(contar_pases_y_efectividad('pases.txt'))
+    print(contar_pases_y_efectividad('pases.txt'))
 
     # Benchmark
-    print(timeit.timeit('contar_pases_y_efectividad("pases.txt")', number=1000000,
-                        setup="from __main__ import contar_pases_y_efectividad"))
+    # print(timeit.timeit('contar_pases_y_efectividad("pases.txt")', number=1000000,
+    #                     setup="from __main__ import contar_pases_y_efectividad"))
