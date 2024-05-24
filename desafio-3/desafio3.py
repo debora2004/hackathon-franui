@@ -164,7 +164,7 @@ if __name__ == '__main__':
     puntaje_argentina, puntaje_paises_bajos = calcular_penales(puntaje_argentina, puntaje_paises_bajos, 11)
 
     # En caso de que ambos equipos hayan metido la misma cantidad de penales, se llama a la función
-    # "definicionpenales" para que se patee un penal por equipo hasta que haya un ganador. De lo contrario,
+    # "definir_penales" para que se patee un penal por equipo hasta que haya un ganador. De lo contrario,
     # se determina el ganador del partido.
     if puntaje_argentina == puntaje_paises_bajos:
         # definir_penales(puntaje_argentina, puntaje_paises_bajos)
