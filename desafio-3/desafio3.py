@@ -1,7 +1,7 @@
 import random
 
 """
-Grupo 11: Franui
+Equipo 11: Franui
 
 Desafío 3.
 
