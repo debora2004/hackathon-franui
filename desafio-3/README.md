@@ -1,4 +1,4 @@
-# Desafío: Estadísticas de pase
+# Desafío: Simulador de penales.
 
 Este proyecto consiste en un simulador de penales.
 
