@@ -14,7 +14,7 @@ pases.txt que puede ser generado con el código del desafío anterior.
 1. **Clonar el Repositorio**: Clona este repositorio en tu máquina local.
 
     ```bash
-    git clone https://github.com/debora2004/hackathon-franui.git
+    git clone https://github.com/zetta102/hackathon-franui/tree/main/desafio-3
     ```
 
 2. **Acceder al Directorio del Proyecto**: Navega hasta el directorio donde clonaste el repositorio.
