@@ -1,0 +1,102 @@
+{
+  "preguntas": [
+    {
+      "¿Quién fundó los Juegos Olímpicos?": {
+        "Pierre de Coubertin": true,
+        "Juan Antonio Samarat": false,
+        "Aquiles": false
+      }
+    },
+    {
+      "¿Cada cuánto se celebran los Juegos Olímpicos?": {
+        "2 años": false,
+        "4 años": true,
+        "1 año": false
+      }
+    },
+    {
+      "¿Cuántos anillos tiene el logo de los Juegos Olímpicos?": {
+        "3 anillos": false,
+        "6 anillos": false,
+        "5 anillos": true
+      }
+    },
+    {
+      "¿Cuántos tipos de Juegos Olímpicos existen?": {
+        "1": false,
+        "2": true,
+        "4": false
+      }
+    },
+    {
+      "¿A los vencedores de los Juegos Olímpicos de la Antigua Grecia se les premiaba con?": {
+        "Medalla": false,
+        "Dinero": false,
+        "Corona de olivo": true
+      }
+    },
+    {
+      "Los juegos de la Antigua Grecia se celebraban en honor a:": {
+        "César": false,
+        "Los Dioses": true,
+        "Los Reyes": false
+      }
+    },
+    {
+      "¿Qué tradición se conserva desde la antigua Grecia y que significa el inicio a las Olimpiadas?": {
+        "Desfile de deportistas": false,
+        "Inicio de la competición": false,
+        "Encender la antorcha olímpica": true
+      }
+    },
+    {
+      "¿En qué año fueron los primeros Juegos Olímpicos modernos?": {
+        "1920": false,
+        "1896": true,
+        "1904": false
+      }
+    },
+    {
+      "¿Qué representan los anillos olímpicos?": {
+        "Los cinco continentes": true,
+        "Cinco dioses de Grecia": false,
+        "Cinco deportistas con más medallas": false
+      }
+    },
+    {
+      "¿Dónde se celebraron los primeros Juegos Olímpicos?": {
+        "Roma": false,
+        "París": false,
+        "Atenas": true
+      }
+    },
+    {
+      "¿Quién fue el abanderado de España en los Juego Olímpicos de Río de Janeiro?": {
+        "Rafa Nadal": true,
+        "Pau Gasol": false,
+        "Andrés Iniesta": false
+      }
+    },
+    {
+      "¿Cuál de los siguientes deportes no es olímpico?": {
+        "Fútbol Americano": true,
+        "Boxeo": false,
+        "Hípica": false
+      }
+    },
+    {
+      "¿Dónde viven los atletas durante los juegos Olímpicos?": {
+        "Hoteles": false,
+        "Villa Olímpica": true,
+        "Pisos": false
+      }
+    },
+    {
+      "¿Qué deportista tiene el récord de medallas olímpicas?": {
+        "Michael Phelps": true,
+        "Usain Bolt": false,
+        "Ian Millar": false
+      }
+    }
+  ]
+}
